@@ -30,7 +30,7 @@ data['ROC'] = data['Close'].pct_change(periods=10)  #Price change rate over 5 da
 # In[33]:
 
 
-features = ['Open', 'High', 'Low', 'Close', 'MA5', 'MA10', 'ROC']
+features = ['High', 'Low', 'Close', 'MA5', 'MA10', 'ROC']
 target = 'Open' 
 
 
